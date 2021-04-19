@@ -8,6 +8,7 @@ URL: https://jsonmock.hackerrank.com/api/movies/search/?Title=_SEARCHTERM_
 
 ### Output format
 Combine the results of the 2 API calls, and map them into the following JSON structure:
+```
   {
     substrA: [
       { title: title - year, imdbID },
@@ -20,6 +21,7 @@ Combine the results of the 2 API calls, and map them into the following JSON str
       { title: title - year, imdbID },
     ]
   }
+```  
 Print the mapped JSON result to the console
 
 ### Example Input
@@ -27,6 +29,7 @@ Substring input 1: Deathly
 Substring input 2: Goblet
 
 ### Example Output
+```
   {
     Deathly: [
       { title: 'Harry Potter and the Deathly Hallows: Part 1 - 2010', imdbID: 65573 },
@@ -37,3 +40,4 @@ Substring input 2: Goblet
       { title: 'Inside 'Harry Potter and the Goblet of Fire' - 2005", imdbID: 34564 }
     ]
   }
+```  
